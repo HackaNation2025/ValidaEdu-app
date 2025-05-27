@@ -12,7 +12,10 @@ export default function Index() {
 
   return (
     <View style={styles.container}>
-      <Text>Faça login</Text>
+      <Text style={styles.title}>EduChain</Text>
+
+      <Text style={styles.subtitle}>Faça login para continuar</Text>
+
       <TextInput
         style={styles.input}
         placeholder="Usuário"
